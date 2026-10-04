@@ -1,0 +1,21 @@
+# Virtual environments
+venv/
+.venv/
+
+# Python
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Local data (your own mood history)
+mood_log.json
+
+# Editors / OS
+.vscode/
+.idea/
+Thumbs.db
+
+# Build output (PyInstaller)
+build/
+dist/
+*.spec
